@@ -1,0 +1,155 @@
+#students{
+    display:inline-block;
+    padding: 3px;
+    font-family: monospace;
+}
+#head{
+    display:inline-block;
+    background-color: lightcoral;
+    color:white;
+    padding: 3px;
+   font-family: monospace;
+   border-radius: 25px;
+
+}
+header{
+   
+    background-position: 60% 66%;
+}
+
+#banner{
+    float: right;
+   height:75px;
+
+}
+hr{
+    width:100%;
+    color:red;
+   
+}
+
+header{
+    font-size:12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+
+}
+#lion{
+    width:100%;
+    animation: change 3s forwards;
+    opacity: 0;
+}
+
+@keyframes change {
+  from{width:100%;
+      
+  }
+  to{width:2%;
+      
+  }
+}
+
+hr{
+    width: 70%;
+    margin-left: 0px;
+
+
+}
+.title{
+    margin-bottom: 0%;
+    color: red;
+}
+body{
+    background-color:#242943;;
+}
+#uni{
+    font-size: 42px;
+   margin-left:10% ;
+   margin-bottom: 0px;
+   height: auto;
+  
+}
+
+nav {
+    z-index: 10000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+ }
+ @keyframes opacity{
+    from{
+        filter: opacity(0);
+    }
+    to{
+        filter: opacity(1);
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    
+    .bigger{
+        height: 80vh;
+    }
+}
+@media only screen and (min-width: 901px) {
+    
+.bigger{
+
+   
+ height: 50vh;
+   
+}
+}
+
+.bigger{
+    width:100%;
+ 
+    background-repeat: no-repeat;
+    background-position: 50% 15%;
+   
+  background-color:orange;
+  margin: 10px;
+  padding: 0px;
+}
+.section{
+    width:100%;
+    height:100%;
+    animation: opacity 14s;
+}
+
+ol{
+    width:75%;
+    margin-left: 8%;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.content{
+    line-height: 30px;
+}
+
+h3{
+    margin-left: 8%;
+    margin-top: 25px;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    font-size: 27px;
+    color:white;
+}
+li{
+    
+    width: fit-content;
+    animation: rainbow 3s infinite;
+    filter: brightness(120%);
+    
+}
+@keyframes rainbow{
+    50%{
+       color:red;
+    }
+    100%{
+        color:green;
+    }
+}
+

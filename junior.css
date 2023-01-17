@@ -1,0 +1,168 @@
+.begin{
+    font: size 28px;
+    text-align: center;
+    margin-top: 4%;
+}
+
+#students{
+    display:inline-block;
+    padding: 3px;
+    font-family: monospace;
+}
+#head{
+    display:inline-block;
+    background-color: lightcoral;
+    color:white;
+    padding: 3px;
+   font-family: monospace;
+   border-radius: 25px;
+
+}
+header{
+   
+    background-position: 60% 66%;
+}
+
+nav {
+    z-index: 10000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+ }
+
+
+#banner{
+    float: right;
+   height:75px;
+
+}
+hr{
+    width:100%;
+    color:red;
+   
+}
+
+header{
+    font-size:12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+
+}
+#lion{
+    width:100%;
+    animation: change 3s forwards;
+}
+
+@keyframes change {
+  from{width:100%;
+      
+  }
+  to{width:2%;
+      
+  }
+}
+
+.bigger{
+
+    width:100%;
+    height:50vh;
+    background-repeat: no-repeat;
+    background-position: 50% 15%;
+    background-size: 100%;
+   
+}
+   
+.bigger:hover{
+    filter: brightness(150%);
+    transition: 1.7s;
+}
+  
+  
+
+#profile{
+    background-image: url(assets/profile.jpeg);
+    background-position: 50% 42%;
+}
+
+#essay{
+    background-image: url(assets/essay.jpeg);
+}
+#uni{
+    background-image: url(assets/uni.jpeg);
+}  
+
+#academics{
+    background-image: url(assets/academics.jpeg);
+    background-position: 50% 42%;
+  
+}
+#common{
+    background-image: url(assets/common.jpeg);
+}
+#sat{
+    background-image: url(assets/sat.jpeg);
+    background-position: 50% 40%;
+}
+
+#reccomendation{
+    background-image: url(assets/reccomend.jpeg);
+    background-position: 50% 30%;
+}
+
+#sports{
+    background-image: url(assets/sports.jpeg);
+}
+#scholar{
+    background-image: url(assets/scholar.jpeg);
+    background-position: 50% 40%;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+    body{
+        width: auto;
+        height: 100%;
+    }
+    .bigger{
+        background-size: 100% 50vh;
+    }
+
+}
+
+
+
+
+
+a{
+    text-decoration: none;
+}
+.hr{
+    width: 40%;
+    align-content: center;
+}
+body{
+    background-color: darkred;
+}
+.title{
+    text-align: center;
+    padding-bottom: 0px;
+    font-size: 50px;
+    margin: 0%;
+    padding-top: 50px;
+    color: rgba(129, 7, 7, 0.808);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+    text-decoration: none;
+    color: black;
+   
+
+
+}
+.smaller{
+    display: inline-block;
+}

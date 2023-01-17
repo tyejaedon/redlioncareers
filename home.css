@@ -1,0 +1,198 @@
+#students{
+    display:inline-block;
+    padding: 3px;
+    font-family: monospace;
+}
+#head{
+    display:inline-block;
+    background-color: lightcoral;
+    color:rgb(255, 255, 255);
+    padding: 3px;
+   font-family: monospace;
+   border-radius: 25px;
+}
+header{
+    background-image: url('assets/school.jpeg');
+    background-position: 60% 66%;
+}
+
+
+nav {
+    z-index: 10000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+ }
+
+
+#banner{
+    float: right;
+   height:75px;
+
+}
+hr{
+    width:100%;
+    color:red;
+   
+}
+
+header{
+    font-size:12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+a{
+    text-decoration: none;
+}
+
+*{
+    box-sizing: border-box;
+}
+#seniors{
+    border:solid;
+    width:100%;
+    height:50%;
+   background-image: url(assets/seniors.jpg);
+   background-repeat: no-repeat;
+  background-position: 50% 15%;
+    background-size: cover;
+    filter:grayscale(90%);
+    text-align: center;
+  
+    transition: 2s;
+}
+#seniors:hover{
+    filter: grayscale(0%);
+    
+    transition: 2s;
+
+}
+
+#juniors:hover{
+    filter: grayscale(0%);
+    transition: 2s;
+}
+#sophmores:hover{
+    filter: grayscale(0%);
+    transition: 2s;
+}
+#freshmen:hover{
+    filter: grayscale(0%);
+    transition: 2s;
+}
+
+.inline-block::after{
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+.cell{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+   
+  
+}
+
+
+#juniors{
+
+    border: solid;
+   
+    height: 70%;
+    background-image: url(assets/juniors.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter:grayscale(90%);
+   
+}
+  
+
+#sophmores{
+ 
+    border: solid;
+  
+    height: 70%;
+    background-image: url(assets/sophmores.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter:grayscale(90%);
+}
+
+#freshmen{
+ 
+    border: solid;
+    
+    height: 70%;
+    background-image: url(assets/freshmen.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter:grayscale(90%);
+   
+}
+.title{
+    font-family: monospace;
+    font-size: 42px;
+    color:red;
+    text-align: center;
+}
+.hr{
+    width: 50%;
+    color:white;
+    border-radius: 20pt;
+}
+.text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    opacity: 0.5;
+    text-align: center;
+}
+.text:hover{
+    opacity: 1;
+    transition: 2s;
+}
+
+#special{
+    color:grey;
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+     
+      width:auto;
+    }
+    #juniors{
+        width:100%;
+    }
+    #sophmores{
+        width:100%;
+    }
+    #freshmen{
+        width:100%;
+    }
+    #banner{
+        width:25%;
+    }
+    #head{
+        font-size: 130%;
+    }
+    #students{
+        font-size:120%;
+    }
+  }
+
+  #lion{
+      width:100%;
+      animation: change 3s forwards;
+  }
+
+  @keyframes change {
+    from{width:100%;
+        
+    }
+    to{width:2%;
+        
+    }
+}

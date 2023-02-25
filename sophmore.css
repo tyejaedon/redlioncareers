@@ -8,28 +8,29 @@
     display:inline-block;
     padding: 3px;
     font-family: monospace;
+    margin: 8px;
 }
 #head{
     display:inline-block;
-    background-color: lightcoral;
-    color:white;
+    background-color: rgb(240, 128, 128);
+    color:rgb(255, 255, 255);
     padding: 3px;
    font-family: monospace;
    border-radius: 25px;
+   margin-top: 8px;
 
 }
+
+#head:hover{
+    color:darkred;
+   
+    transition: .5s;
+}
+
 header{
    
     background-position: 60% 66%;
 }
-
-nav {
-    z-index: 10000;
-    position: fixed;
-    top: 0px;
-    width: 100%;
- }
-
 
 #banner{
     float: right;
@@ -62,6 +63,16 @@ header{
   }
 }
 
+nav {
+    z-index: 10000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+ }
+
+
+
+
 .container-fluid{
 
     width:100%;
@@ -69,26 +80,29 @@ header{
     background-repeat: no-repeat;
     background-position: 50% 15%;
     background-size: cover;
+    
    
 }
    
 .container-fluid:hover{
-    filter: brightness(150%);
+    filter: brightness(120%);
     transition: 1.7s;
 }
   
   
 
-#profile{
-    background-image: url(assets/profile.jpeg);
-    background-position: 50% 42%;
-}
 
-#essay{
-    background-image: url(assets/essay.jpeg);
+
+#career{
+    background-image: url(assets/career.jpeg);
+    background-position: 50% 35%;
+    background-size: cover;
+    
+
 }
-#uni{
-    background-image: url(assets/uni.jpeg);
+#community{
+    background-image: url(assets/community.jpeg);
+    background-position: 50% 45%;
 }  
 
 #academics{
@@ -96,26 +110,28 @@ header{
     background-position: 50% 42%;
   
 }
-#common{
-    background-image: url(assets/common.jpeg);
+#counselor{
+    background-image: url(assets/counselor.jpeg);
 }
 #sat{
     background-image: url(assets/sat.jpeg);
     background-position: 50% 40%;
 }
 
-#reccomendation{
-    background-image: url(assets/reccomend.jpeg);
-    background-position: 50% 30%;
+#finance{
+    background-image: url(assets/css.jpeg);
+    background-position: 50% 40%;
 }
 
 #sports{
     background-image: url(assets/sports.jpeg);
 }
-#scholar{
-    background-image: url(assets/scholar.jpeg);
-    background-position: 50% 40%;
+#summer{
+    background-image: url(assets/summer.jpeg);
+    background-position: 50% 25%;
+   
 }
+
 
 
 
@@ -147,11 +163,12 @@ p{
     
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 22px;
- 
+    margin:auto;
+    width: fit-content;
     text-decoration: none;
     color: gold;
     background-color:  rgba(0,0,0,.5);
-   
+   border-radius: 25px;
 
 
 }

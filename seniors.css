@@ -4,22 +4,26 @@
     margin-top: 4%;
 }
 
-#students{
+#student{
     display:inline-block;
     padding: 3px;
     font-family: monospace;
+    margin: 8px;
+    
 }
-#head{
+#rlca{
     display:inline-block;
-    background-color: lightcoral;
-    color:white;
+    background-color: rgb(240, 128, 128);
+    color:rgb(255, 255, 255);
     padding: 3px;
    font-family: monospace;
    border-radius: 25px;
+   margin-top: 8px;
+  
 
 }
 
-#head:hover{
+#rlca:hover{
     color:darkred;
    
     transition: .5s;
@@ -71,17 +75,19 @@ nav {
 
 
 
-.bigger{
+.container-fluid{
 
     width:100%;
-    height:50vh;
+ height: 50vh;
     background-repeat: no-repeat;
     background-position: 50% 15%;
-    background-size: 100%;
+    background-size:cover;
+    margin-left: 0px;
+    padding: 0px;
    
 }
    
-.bigger:hover{
+.container-fluid:hover{
     filter: brightness(150%);
     transition: 1.7s;
 }
@@ -92,14 +98,16 @@ nav {
 
 #checklist{
     background-image: url(assets/checklist.jpeg);
+    background-blend-mode:hue;
 }
 #uni{
-    background-image: url(assets/uni.jpeg);
+    background-image: url(assets/university.jpeg);
 }  
 
 #academics{
     background-image: url(assets/academics.jpeg);
     background-position: 50% 42%;
+    filter: brightness(120%);
   
 }
 #common{
@@ -124,17 +132,6 @@ nav {
 }
 
 
-@media only screen and (max-width: 900px) {
-
-    body{
-        width: auto;
-        height: 100%;
-    }
-    .bigger{
-        background-size: 100% 50vh;
-    }
-
-}
 
 
 
@@ -161,10 +158,15 @@ body{
 }
 p{
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
- 
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    width: fit-content;
     text-decoration: none;
-    color: black;
+    color: gold;
+    background-color:  rgba(0,0,0,.5);
+    margin: auto;
+    border-radius: 12px;
    
 
 
@@ -172,3 +174,56 @@ p{
 .smaller{
     display: inline-block;
 }
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  
+  
+  p{
+    line-height: 28px;
+    transform: translateY(300px);
+    animation: slideUp 2s ease-in-out forwards .8s;
+  
+  }
+  
+  
+  
+  
+  .title {
+    overflow: hidden;
+    height: auto;
+  }
+  
+  h1 {
+      font-size: 40px;
+      color: var(--contrast-color);
+      margin-bottom: 20px;
+      transform: translateY(100px);
+      animation: slideUp 2s ease forwards .5s;
+  }
+  
+
+  
+  @keyframes slideUp {
+    0% {
+      transform: translateY(300px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  div:hover{
+   transform: scale(1.1);
+   animation-duration: 2s;
+  }
+  
+  
+

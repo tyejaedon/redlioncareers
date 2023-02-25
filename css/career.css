@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+ 
+}
+#students{
+display:inline-block;
+padding: 3px;
+font-family: monospace;
+font-size: 22px;
+}
+#head{
+display:inline-block;
+background-color: lightcoral;
+color:white;
+padding: 3px;
+font-family: monospace;
+border-radius: 25px;
+font-size: 22px;
+
+}
+.header{
+background-image: url('../assets/school.jpeg');
+background-position: 60% 66%;
+width:100%;
+height: 20vh;
+
+}
+hr{
+    opacity: 0;
+}
+#banner{
+float: right;
+height:75px;
+
+}
+body{
+    background:#25181d;
+ 
+}
+
+hr{
+width:100%;
+color:red;
+
+}
+
+nav {
+    z-index: 10000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    }
+.flex{
+    display: flex;
+   padding: 0px;
+   vertical-align: top;
+   animation: move 2.85s;
+ 
+   
+   
+  
+   
+    margin-top: 7%;
+
+
+  
+}
+.write{
+   
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   width:60%;
+    display: block;
+    background: rgb(59, 59, 59);
+   
+    margin-top:10px;
+  
+}
+.write:hover{
+    box-shadow: 15px 15px 15px 15px;
+    transform: scale(1.18);
+    transition: 2.6s;
+}
+.content{
+    width: 33.333%;
+        /* To correctly align image, regardless of content height: */
+        vertical-align: top;
+        display: inline-block;
+        /* To horizontally center images and caption */
+        text-align: center;
+        
+
+        
+}
+a{
+    text-decoration: none;
+}
+.image{
+ 
+    width: 60%;
+    height:70%;
+    
+    border-style: solid;
+    padding:5px;
+    border-color: gold;
+
+}
+span{
+    color:gold;
+}
+
+@media screen and (max-width: 880px){
+    .flex{
+        display: inline-block;
+    }
+    .content{
+        width: 100%;
+    }
+    .image{
+        width: 90%;
+    }
+}
+@keyframes move {
+    0%{
+        transform: translateX(-700px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}

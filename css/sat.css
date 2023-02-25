@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#students{
+display:inline-block;
+padding: 3px;
+font-family: monospace;
+}
+#head{
+display:inline-block;
+background-color: lightcoral;
+color:white;
+padding: 3px;
+font-family: monospace;
+border-radius: 25px;
+
+}
+header{
+
+background-position: 60% 66%;
+}
+
+#banner{
+float: right;
+height:75px;
+
+}
+hr{
+width:100%;
+color:red;
+
+}
+img{
+    filter: invert(70%);
+}
+
+header{
+font-size:12px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+#lion{
+width:100%;
+animation: change 3s forwards;
+opacity: 0;
+}
+@keyframes slidein{
+    from{
+        transform: translateX(-900px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+@keyframes change {
+from{width:100%;
+  
+}
+to{width:2%;
+  
+}
+}
+
+hr{
+width: 70%;
+margin-left: 0px;
+
+
+}
+.title{
+margin-bottom: 0%;
+color: red;
+}
+body{
+background-image:url(../assets/sky.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+z-index: -1;
+
+}
+#uni{
+font-size: 42px;
+margin-left:10% ;
+margin-bottom: 0px;
+height: auto;
+animation:slidein .7s ease-in;
+animation-delay: .2s;
+
+}
+
+nav {
+z-index: 10000;
+position: fixed;
+top: 0px;
+width: 100%;
+}
+@keyframes opacity{
+from{
+    filter: opacity(0);
+}
+to{
+    filter: opacity(1);
+}
+}
+
+@media only screen and (max-width: 900px) {
+
+.bigger{
+    height: 80vh;
+}
+}
+@media only screen and (min-width: 901px) {
+
+.bigger{
+
+
+height: 50vh;
+
+}
+}
+
+.bigger{
+width:100vmax;
+
+background-repeat: no-repeat;
+background-position: 50% 15%;
+
+background: linear-gradient(235deg,yellow,rgb(11, 11, 214),whitesmoke);
+margin: 10px;
+padding: 0px;
+}
+.section{
+width:100%;
+height:100%;
+animation: opacity 7s;
+
+}
+
+.starter{
+   text-align: center;
+    margin-top: 8%;
+    font-size: 42px;
+    color:steelblue;
+    background: linear-gradient(-235deg,yellow,rgb(11, 11, 214),whitesmoke);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+    border-radius: 25px;
+    padding:5px;
+}
+
+.content{
+   
+   text-align:left;
+ color: white;
+   width: 85%;
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 24px;
+}
+.image{
+    display: flex;
+}
+a{
+    color:whitesmoke;
+}
+ul{
+    color:lightgoldenrodyellow;
+   
+   font-size: 22px;
+   font-style: italic;
+
+}
+li{
+    list-style: circle;
+    padding-bottom: 10px;
+    margin-left: 8%;
+    z-index: 1;
+}

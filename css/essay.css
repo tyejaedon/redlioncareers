@@ -22,6 +22,10 @@ header{
    height:75px;
 
 }
+body{
+    margin: 0;
+    padding: 0;
+}
 hr{
     width:100%;
     color:red;
@@ -66,7 +70,9 @@ body{
     font-size: 42px;
    margin-left:10% ;
    margin-bottom: 0px;
-   height: max-content;
+   height: auto;
+   animation: move 3s forwards;
+   
   
 }
 
@@ -78,7 +84,7 @@ nav {
  }
  @keyframes opacity{
     from{
-        filter: opacity(.9);
+        filter: opacity(0);
     }
     to{
         filter: opacity(1);
@@ -88,28 +94,17 @@ nav {
 @media only screen and (max-width: 900px) {
     
     .bigger{
-        height: 40vh;
-        padding-bottom: 20px;
-
+        height: 80vh;
     }
-    .dualenrollment{
-        padding-left: 0;
-        text-align: center;
-       
-    }
-    
 }
 @media only screen and (min-width: 901px) {
     
 .bigger{
 
-    padding-left: 30%;
+   
  height: 50vh;
- width: fit-content;
-
    
 }
-
 }
 
 .bigger{
@@ -118,26 +113,18 @@ nav {
     background-repeat: no-repeat;
     background-position: 50% 15%;
    
-  background-color:violet;
-  margin: 0px;
+  background-color:orange;
+  margin: 10px;
   padding: 0px;
-  background-size: cover;
-
 }
 .section{
     width:100%;
     height:100%;
-    animation: opacity 14s;
+    animation: move1 3s forwards;
+
 }
 
-ol,ul{
-    width:75%;
-    margin-left: 8%;
-    font-size: 18px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: white;
-}
-p{
+ol{
     width:75%;
     margin-left: 8%;
     font-size: 18px;
@@ -147,57 +134,6 @@ p{
 
 .content{
     line-height: 30px;
-}
-#middle{
-    text-align:center;
-    text-decoration: none;
-}
-.dualenrollment{
-   text-align: center;
-    text-decoration: none;
-
-
-    
-
-   
-}
-
-.image{
-   
- 
-  width: 400px;
-  border-style: ridge;
-  border-color: aqua;
-    
-  
-  
-}
-
-
-
-  table{
-      padding-left:5%;
-      table-layout: fixed ;
-  }
-  th{
-      background-color: rgb(177, 26, 26);
-      width: fit-content;
-  }
-  td{
-      background-color: rgb(14, 70, 119);
-      color:white;
-      line-height: 30px;
-      padding:5px;
-  }
-  td:hover{
-      animation: rainbow1 2s infinite;
-  }
-
-.para{
-  
-    font: italic 19px "Fira Sans", serif;
-    width: fit-content;
-   
 }
 
 h3{
@@ -211,9 +147,14 @@ h3{
 li{
     
     width: fit-content;
-    animation: rainbow 3s infinite;
+   color:lightskyblue;
+   font-size: 22px;
     filter: brightness(120%);
     
+}
+li:hover{
+    transform: scale(1.2);
+    transition: 3.7s;
 }
 @keyframes rainbow{
     50%{
@@ -223,24 +164,40 @@ li{
         color:green;
     }
 }
-
-@keyframes rainbow1{
-    50%{
-       background-color:red;
+@keyframes move {
+    0%{
+        transform: translateY(-300px);
     }
     100%{
-        background-color:green;
+        transform: translateY(0);
     }
 }
-.text{
-    font-size: 28px;
+@keyframes move1 {
+    0%{
+        transform: translateX(-500px);
+    }
+    100%{
+        transform: translateX(0);
+    }
 }
-.container{
-    float:left;
-    width:400px;
-    margin-right: 50px;
-   
 
+.content{
+    border-style: solid;
+    box-shadow: 24px, 22px, 20px, 18px;
+    background-color: rgba(128, 128, 128, 0.425);
+    border-radius: 25px;
+    margin-top: 4%;
+    padding: 8px;
+    margin-bottom: 4%;
+}
+@media screen and (max-width:800px){
+    .bigger{
+        height: 100vh;
     
-
+    }
+}
+@media screen and (min-width:801px) {
+    .bigger{
+        height: 50vh;
+    }
 }

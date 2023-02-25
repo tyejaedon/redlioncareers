@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+ 
+}
+#students{
+display:inline-block;
+padding: 3px;
+font-family: monospace;
+}
+#head{
+display:inline-block;
+background-color: lightcoral;
+color:white;
+padding: 3px;
+font-family: monospace;
+border-radius: 25px;
+
+}
+.header{
+background-image: url('../assets/school.jpeg');
+background-position: 60% 66%;
+width:100%;
+height: 20vh;
+}
+hr{
+    opacity: 0;
+}
+#banner{
+float: right;
+height:75px;
+
+}
+body{
+    background-color:cornflowerblue;
+}
+
+hr{
+width:100%;
+color:red;
+
+}
+
+nav {
+    z-index: 10000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    }
+.section{
+    display: flex;
+}
+
+.css{
+    background: black;
+    width:50%;
+    color:white;
+    animation: trans 2s;
+
+  
+    
+}
+.fafsa{
+    background-color: rgb(204, 36, 30);
+    width:50%;
+    animation: trans1 2s ;
+  
+ 
+}
+
+.title{
+  font-size: 32px;
+    text-align: center;
+   
+    text-decoration:underline;
+  
+}
+.flex{
+    display: flex;
+   text-align: center;
+}
+.icon{
+   
+    width: 100px;
+    filter: invert(30%);
+
+}
+.css:hover{
+    transform: scale(1.1);
+    border-radius: 25px;
+    transition: 3s;
+    transform: translateX(50px);
+}
+.fafsa:hover{
+    transform: scale(1.5);
+    border-radius: 25px;
+    transition: 3s;
+    transform: translateX(-50px);
+    box-shadow: 12px 25px 12px 25px;
+ 
+}
+
+
+
+.write{
+    margin-left: 8%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 8%;
+
+}
+.color{
+    color:rgb(224, 194, 20);
+}
+.learn{
+    margin-left: auto;
+    margin-right: auto;
+    border-style:solid;
+    border-width: 5px;
+    width: fit-content;
+    padding:8px;
+    border-color: greenyellow;
+    border-radius: 25px;
+
+}
+.learn:hover{
+ color:white;
+ background-color:yellow;
+ border-color: white;
+ transition: 2s;
+ transform: scale(1.12);
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+@keyframes trans {
+    0%{
+        transform: translateX(-300px);
+       
+    }
+
+    100%{
+        transform: translateX(0);
+        transform: rotate(0);
+        
+    }
+}
+@keyframes trans1 {
+    0%{
+        transform: translateX(300px);
+
+    }
+
+    100%{
+        transform: translateX(0);
+        transform: rotate(0);
+    }
+}
+ul{
+    margin-left: 8%;
+    color:white;
+}
+@media  screen and (max-width: 880px) {
+    .css:hover{
+        width: 100vmax;
+    }
+    .fafsa:hover{
+        width: 100vmax;
+    }
+}

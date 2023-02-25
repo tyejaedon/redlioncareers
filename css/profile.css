@@ -78,21 +78,6 @@ hr{
 
 
 }
-@media only screen and (max-width: 900px) {
-    
-    .bigger{
-        height: 80vh;
-    }
-}
-@media only screen and (min-width: 901px) {
-    
-.bigger{
-
-   
- height: 50vh;
-   
-}
-}
 .title{
     margin-bottom: 0%;
     color: red;
@@ -113,7 +98,7 @@ body{
     background-repeat: no-repeat;
     background-position: 50% 15%;
     background-size: 100% 100%;
-  background-color: darkcyan;
+  background-color: indianred;
   margin: 0px;
   padding: 0px;
    
@@ -125,4 +110,15 @@ body{
 iframe{
     width:100%;
     height: 100vh;
+}
+@media screen and (max-width:800px){
+    .bigger{
+        height: 100vh;
+    
+    }
+}
+@media screen and (min-width:801px) {
+    .bigger{
+        height: 50vh;
+    }
 }

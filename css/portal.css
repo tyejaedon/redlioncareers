@@ -101,11 +101,20 @@ to{
     filter: opacity(1);
 }
 }
+.flex{
+    display: flex;
+}
+.image{
+    width: 5%;
 
+}
+.section{
+    width: 90%;
+}
 @media only screen and (max-width: 900px) {
 
 .bigger{
-    height: 80vh;
+    height: max-content;
 
 }
 
@@ -121,14 +130,14 @@ height: 50vh;
 }
 
 .bigger{
-width:100vmax;
+width:100%;
 
 background-repeat: no-repeat;
 background-position: 50% 15%;
 
 background: linear-gradient(235deg,red,white,black);
-margin: 10px;
-padding: 0px;
+margin: 0;
+padding: 10px;
 }
 .section{
 width:100%;

@@ -173,9 +173,14 @@ li{
 @media only screen and (max-width: 900px) {
 
     .bigger{
-        height: 100vh;
+        height: max-content;
     }
-    
+    .text{
+        margin-bottom: 70px;
+    }
+    ul{
+        width: auto;
+    }
     }
     @media only screen and (min-width: 901px) {
     

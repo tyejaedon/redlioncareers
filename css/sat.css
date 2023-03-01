@@ -106,24 +106,10 @@ to{
 }
 }
 
-@media only screen and (max-width: 900px) {
+
 
 .bigger{
-    height: 80vh;
-}
-}
-@media only screen and (min-width: 901px) {
-
-.bigger{
-
-
-height: 50vh;
-
-}
-}
-
-.bigger{
-width:100vmax;
+width:100%;
 
 background-repeat: no-repeat;
 background-position: 50% 15%;
@@ -133,7 +119,7 @@ margin: 10px;
 padding: 0px;
 }
 .section{
-width:100%;
+width:80%;
 height:100%;
 animation: opacity 7s;
 
@@ -157,12 +143,12 @@ animation: opacity 7s;
    
    text-align:left;
  color: white;
-   width: 85%;
+   width: 100%;
    margin-left: auto;
    margin-right: auto;
    font-size: 24px;
 }
-.image{
+.flex{
     display: flex;
 }
 a{
@@ -181,3 +167,22 @@ li{
     margin-left: 8%;
     z-index: 1;
 }
+.image{
+    width: 10%;
+}
+@media only screen and (max-width: 900px) {
+
+    .bigger{
+        height: 100vh;
+    }
+    
+    }
+    @media only screen and (min-width: 901px) {
+    
+    .bigger{
+    
+    
+    height: 50vh;
+    
+    }
+    }

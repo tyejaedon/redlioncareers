@@ -19,17 +19,17 @@ header{
    
     background-position: 60% 66%;
 }
+body{
+    max-width: 100vw;
+    margin: 0;
+}
 
 
 #banner{
     float: right;
    height:75px;
 
-}
-hr{
-    width:100%;
-    color:red;
-   
+
 }
 
 header{
@@ -56,6 +56,8 @@ header{
 hr{
     width: 70%;
     margin-left: 0px;
+    color: red;
+   
 
 
 }
@@ -92,7 +94,7 @@ body{
 @media only screen and (max-width: 900px) {
     
     .bigger{
-        height: 80vh;
+        height: fit-content;
     }
 }
 @media only screen and (min-width: 901px) {
@@ -106,13 +108,13 @@ body{
 }
 
 .bigger{
-    width:100vmax;
+    width:100%;
  
     background-repeat: no-repeat;
     background-position: 50% 15%;
    
   background:linear-gradient(14deg,#D9514EFF,#2A2B2DFF,#2DA8D8FF);
-  margin: 10px;
+  margin-bottom: 10px;
   padding: 0px;
 }
 .section{
@@ -134,8 +136,7 @@ body{
 }
 
 h3{
-    margin-left: 0;
-    margin-top: 25px;
+   
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-decoration: underline;
     font-size: 27px;
@@ -145,8 +146,7 @@ h3{
     margin-left: 8%;
 }
 h4{
-    margin-left: 0;
-    margin-top: 35px;
+   
     font-family:Georgia, 'Times New Roman', Times, serif;
     
     font-size: 32px;
@@ -229,5 +229,16 @@ text-align: center;
     }
     100%{
         transform: translateX(0);
+    }
+}
+
+@media screen and (min-width:700px) {
+    h3{
+        margin-left: 0;
+        margin-top: 25px;
+    }
+    h4{
+        margin-left: 0;
+        margin-top: 35px;
     }
 }

@@ -88,7 +88,7 @@ nav {
 @media only screen and (max-width: 900px) {
     
     .bigger{
-        height: 80vh;
+        height: 100vh;
     }
 }
 @media only screen and (min-width: 901px) {

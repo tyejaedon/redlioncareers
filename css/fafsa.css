@@ -156,6 +156,9 @@ ul{
         display:block;
 
     }
+    .write{
+        font-size: 12px;
+    }
     .section{
         display: block;
     }

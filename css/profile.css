@@ -113,8 +113,11 @@ iframe{
 }
 @media screen and (max-width:800px){
     .bigger{
-        height: 100vh;
+        height: max-content;
     
+    }
+    .text{
+        font-size: 22px;
     }
 }
 @media screen and (min-width:801px) {

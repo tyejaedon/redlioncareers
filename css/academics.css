@@ -85,20 +85,7 @@ nav {
     }
 }
 
-@media only screen and (max-width: 900px) {
-    
-    .bigger{
-        height: 40vh;
-        padding-bottom: 20px;
 
-    }
-    .dualenrollment{
-        padding-left: 0;
-        text-align: center;
-       
-    }
-    
-}
 @media only screen and (min-width: 901px) {
     
 .bigger{
@@ -243,4 +230,19 @@ li{
 
     
 
+}
+
+@media only screen and (max-width: 900px) {
+    
+    .bigger{
+        height: 40vh;
+        padding-bottom: 20px;
+
+    }
+    .dualenrollment{
+        padding-left: 0;
+        text-align: center;
+       
+    }
+    
 }

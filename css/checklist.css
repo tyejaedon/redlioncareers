@@ -81,8 +81,12 @@ hr{
 @media only screen and (max-width: 900px) {
     
     .bigger{
-        height: 80vh;
+        height: max-content;
     }
+    .text{
+        font-size: 22px;
+    }
+
 }
 @media only screen and (min-width: 901px) {
     

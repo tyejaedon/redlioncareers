@@ -111,14 +111,7 @@ to{
 .section{
     width: 90%;
 }
-@media only screen and (max-width: 900px) {
 
-.bigger{
-    height: max-content;
-
-}
-
-}
 @media only screen and (min-width: 901px) {
 
 .bigger{
@@ -188,3 +181,20 @@ li{
     margin-left: 8%;
     z-index: 1;
 }
+@media only screen and (max-width: 900px) {
+
+    .bigger{
+        height: max-content;
+    
+    }
+    .content,li{
+        font-size: 12px;
+    }
+    .text{
+        font-size: 18px;
+    }
+    .starter{
+        font-size: 16px;
+    }
+    
+    }

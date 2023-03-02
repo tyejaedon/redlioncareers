@@ -175,13 +175,27 @@ li{
 
     .bigger{
         height: max-content;
+        font-size: 18px;
     }
     .text{
         margin-bottom: 70px;
+
+      
     }
     ul{
         width: auto;
     }
+    li{
+        line-height: 170%;
+        font-size: 12px;
+
+    }
+    .content{
+        line-height: 170%;
+        font-size: 12px;
+        
+    }
+
     }
     @media only screen and (min-width: 901px) {
     

@@ -129,7 +129,7 @@ animation: opacity 7s;
    text-align: center;
     margin-top: 8%;
     font-size: 42px;
-    color:steelblue;
+    color:white;
     background: linear-gradient(-235deg,yellow,rgb(11, 11, 214),whitesmoke);
     width: fit-content;
     margin-left: auto;
@@ -147,6 +147,7 @@ animation: opacity 7s;
    margin-left: auto;
    margin-right: auto;
    font-size: 24px;
+   line-height: 170%;
 }
 .flex{
     display: flex;
@@ -190,4 +191,8 @@ li{
     height: 50vh;
     
     }
+    }
+
+    li{
+        line-height: 170%;
     }

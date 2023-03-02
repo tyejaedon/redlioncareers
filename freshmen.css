@@ -93,6 +93,7 @@ nav {
 
 #career{
     background-image: url(assets/career.jpeg);
+      background-position: 50% 35%;
 }
 #community{
     background-image: url(assets/community.jpeg);
@@ -212,6 +213,13 @@ p{
   div:hover{
    transform: scale(1.1);
    animation-duration: 2s;
+  }
+  @media screen and (max-width:800px) {
+      .container-fluid{
+          height:max-content;
+          padding: 20px;
+      }
+      
   }
   
   

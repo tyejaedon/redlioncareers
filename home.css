@@ -311,6 +311,11 @@ textarea{
 	.left{
 		height: 200px;
 	}
+
+    .title{
+       font-size:x-large;
+    }
+   
 }
 form{
     height: 90%;
